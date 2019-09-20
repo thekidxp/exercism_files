@@ -26,6 +26,7 @@ fn test_big_prime() {
 }
 
 #[test]
+#[ignore]
 fn test_really_big_prime() {
     assert_eq!(np::nth(100_000_000), 2_038_074_751);
 }
